@@ -3,6 +3,43 @@ body{
     background-color: #efdecd;
 }
 
+.header-links button{
+        background: none;
+        border: none;
+        font-family: 'Cabin', sans-serif;
+        color: #834333;
+        font-size: 16px;
+        padding: 8px 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        white-space: nowrap;       /* <<< This keeps "Contact Us" on one line */
+        transition: background-color 0.3s, border 0.3s;
+      }
+      
+
+.reward-button{
+ border-radius: 30px;
+ width: 100px;
+ text-align: center;
+ display: block;
+  background-color: #834333  ;
+  color: white;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+}
+
+.reward-button:hover {
+    background-color: #b76e79;
+  }
+
+
+.header-links button:hover {
+    background-color: #e3c7b0;
+    border: 1px solid #834333;
+  }
+
 h1,
 p,
 h2,
@@ -12,6 +49,7 @@ button,
 {
     font-family: 'Cabin', sans-serif;
     color: #834333;
+    ju
 }
 
 .logo{
@@ -23,6 +61,7 @@ button,
     max-width: 260px;
     height: auto;
     border-radius: 20px;
+    
 }
 
 
@@ -30,8 +69,9 @@ button,
 .header-links{
     display: flex;
     list-style: none;
-    justify-content: space-between;
+    justify-content: center;
     padding-bottom: 15px;
+    gap: 80px;
 
 }
 
@@ -86,12 +126,31 @@ button,
 }
 
 button{
-    border-radius: 30px;
-    width: 100px;
-
+  border-radius: 30px;
+  width: 100px;
   padding: 3px 5px;
-  background-color: #2a3a34  ;
+  background-color: #834333  ;
   color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
   
 
 }
+
+button:hover {
+    background-color: #b76e79;
+  }
+
+
+
+.footer{
+text-align: center;
+padding: 20px;
+background-color: #f7e3d3;
+color: #834333;
+font-family: 'VT323', monospace;
+font-size: 18px;
+margin-top: 80px;
+border-top: 1px solid #d5bfae;
+letter-spacing: 0.5px;
+      }
