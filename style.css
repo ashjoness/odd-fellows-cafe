@@ -1,3 +1,97 @@
-h1{
-    background-color: blue;
+
+body{
+    background-color: #efdecd;
+}
+
+h1,
+p,
+h2,
+h3,
+button,
+.header-links
+{
+    font-family: 'Cabin', sans-serif;
+    color: #834333;
+}
+
+.logo{
+    max-width: 260px;
+    height: auto;
+
+}
+.main7 img{
+    max-width: 260px;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+.header-links{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-bottom: 15px;
+
+}
+
+.main1{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 75px;
+}
+
+.main2{
+    flex-direction: column;
+    gap: 28px;
+    display: flex;
+    margin-right: 100px;
+}
+
+.main3{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-top: 120px;
+
+}
+
+.main4{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    text-align: center;
+    margin: 40px auto;
+    padding: 125px;
+
+
+}
+
+.main5{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.main10{
+    max-width: 400px;
+}
+
+button{
+    border-radius: 30px;
+    width: 100px;
+
+  padding: 3px 5px;
+  background-color: #2a3a34  ;
+  color: white;
+  
+
 }
